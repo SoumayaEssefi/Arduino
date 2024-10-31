@@ -20,6 +20,8 @@ Below is a list of the Arduino projects included in this repository:
 | **Traffic_Light_Simulation**  | Simulates a traffic light using three LEDs (red, orange, green).     | Beginner    |
 | **Reaction_Game**             | A fun game where a buzzer sounds at random intervals, and the player must press a button to stop the timer. | Intermediate |
 | **LCD_Display**               | Displays custom text on a 16x2 LCD screen. | Beginner    |
+| **LED_RGB_Potentiometers**    | Controls an RGB LED that changes color based on the position of three potentiometers. Each potentiometer adjusts the intensity of a specific color (red, green, blue). | Intermediate |
+
 
 ## Requirements
 
@@ -41,6 +43,10 @@ To set up and run the projects:
 2. Open the Arduino IDE and load the `.ino` file from the desired project folder.
 3. Connect your Arduino board to your computer and upload the code.
 4. Follow the provided circuit diagrams to assemble the hardware.
+
+## Wiring Diagram
+![Wiring Diagram for LCD](./images/cablagelcd.png)
+![Wiring Diagram for LED_RGB_Potentiometers_](./images/RGBLED.png)
 
 ## Contributions
 
