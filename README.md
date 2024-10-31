@@ -46,7 +46,7 @@ To set up and run the projects:
 
 ## Wiring Diagram
 ![Wiring Diagram for LCD](./images/cablagelcd.png)
-![Wiring Diagram for LED_RGB_Potentiometers_](./images/RGBLED.png)
+![Wiring Diagram for LED_RGB_Potentiometers_](./images/RGB_LED.png)
 
 ## Contributions
 
