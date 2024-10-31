@@ -19,6 +19,7 @@ Below is a list of the Arduino projects included in this repository:
 | **Control_LED_with_Button**   | Toggles an LED on or off using a button; the LED turns off when the button is pressed. | Beginner    |
 | **Traffic_Light_Simulation**  | Simulates a traffic light using three LEDs (red, orange, green).     | Beginner    |
 | **Reaction_Game**             | A fun game where a buzzer sounds at random intervals, and the player must press a button to stop the timer. | Intermediate |
+| **LCD_Display**               | Displays custom text on a 16x2 LCD screen. | Beginner    |
 
 ## Requirements
 
