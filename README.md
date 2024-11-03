@@ -21,6 +21,12 @@ Below is a list of the Arduino projects included in this repository:
 | **Reaction_Game**             | A fun game where a buzzer sounds at random intervals, and the player must press a button to stop the timer. | Intermediate |
 | **LCD_Display**               | Displays custom text on a 16x2 LCD screen. | Beginner    |
 | **LED_RGB_Potentiometers**    | Controls an RGB LED that changes color based on the position of three potentiometers. Each potentiometer adjusts the intensity of a specific color (red, green, blue). | Intermediate |
+| **Ultrasonic_Buzzer**         | Uses an ultrasonic sensor to measure distance and activate a buzzer based on proximity. | Beginner    |
+| **Servo_Door**                | Controls a servo motor to open or close a door based on the measured distance. | Beginner    |
+| **Gas_and_Flame_Sensor**      | Monitors gas levels and flame presence, activating an alarm if necessary. | Intermediate |
+| **LDR_LED_Control**           | Controls the brightness of an LED based on ambient light captured by an LDR. | Beginner    |
+| **DHT_Temperature_Humidity**  | Measures and displays temperature and humidity using a DHT22 sensor on an LCD screen. | Intermediate |
+| **Soil_Moisture_Control**     | Monitors soil moisture and activates a pump based on the measured moisture level. | Beginner |
 
 
 ## Requirements
