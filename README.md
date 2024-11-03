@@ -27,6 +27,7 @@ Below is a list of the Arduino projects included in this repository:
 | **LDR_LED_Control**           | Controls the brightness of an LED based on ambient light captured by an LDR. | Beginner    |
 | **DHT_Temperature_Humidity**  | Measures and displays temperature and humidity using a DHT22 sensor on an LCD screen. | Intermediate |
 | **Soil_Moisture_Control**     | Monitors soil moisture and activates a pump based on the measured moisture level. | Beginner |
+| **LCD_Display**               | Displays "hello" on the first line and "2020" on the second line of an I2C LCD screen using the LiquidCrystal_I2C library. | Beginner      |
 
 
 ## Requirements
