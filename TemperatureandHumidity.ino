@@ -3,7 +3,7 @@
 #include <DHT.h>
 
 #define DHTPIN 6        
-#define DHTTYPE DHT22   
+#define DHTTYPE DHT11   
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -13,10 +13,9 @@ void setup() {
   Serial.begin(9600);
   
   dht.begin();
-  lcd.begin(16,2);
+  lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
-  lcd.print("Temp & Humidity");
 }
 
 void loop() {
