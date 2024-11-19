@@ -3,6 +3,8 @@
 
 void setup() {
   pinMode(ledPin, OUTPUT);
+  pinMode(ldrPin, INPUT_PULLUP);
+
 }
 
 void loop() {
