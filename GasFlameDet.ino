@@ -2,8 +2,8 @@
 #define flamePin 2      
 #define alertPin 8      
 
-int gas_seuil = 400;    
-int flameThreshold = LOW; 
+int gas_seuil = 200;    
+int flameThreshold = HIGH; 
 
 void setup() {
   pinMode(gasPin, INPUT);     
@@ -21,7 +21,7 @@ void loop() {
   Serial.print("Flamme détectée : ");
   Serial.println(flameStatus);                     
 
-  if (gasLevel > gas_seuil || flameStatus == HIGH) {
+  if (gasLevel > gas_seuil || flameStatus == LOW) {
     digitalWrite(alertPin, HIGH);  
   } else {
     digitalWrite(alertPin, LOW);   
