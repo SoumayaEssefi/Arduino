@@ -1,0 +1,41 @@
+#include <WiFi.h>
+#include <FirebaseESP32.h>
+const char *firebaseHost = "";
+const char *databaseSecret = "";
+FirebaseData firebaseData;
+int test;
+#define led 14
+#define gasPin 32      
+
+void setup() {
+  pinMode(led, OUTPUT);
+  pinMode(gasPin, INPUT);     
+  Serial.begin(9600);
+  connectWiFi();
+  Firebase.begin(firebaseHost,databaseSecret);
+}
+void loop(){
+  delay(2000);
+  int gaz = analogRead(gasPin);
+      Serial.print("gaz");
+      Serial.println(gaz);
+  Firebase.setInt(firebaseData, "/gaz", gaz);
+
+  if(Firebase.getInt(firebaseData, "/led")){
+    test= firebaseData.intData();
+    Serial.print("led");
+    Serial.println(test);
+
+    digitalWrite(led, test);
+  }
+}
+void connectWiFi(){
+Serial.println("Connecting to WiFi...");
+WiFi.begin("", "");
+while (WiFi.status() != WL_CONNECTED) { 
+delay(1000);
+Serial.print(".");
+}
+Serial.println();
+Serial.println("Connected to WiFi");
+}
