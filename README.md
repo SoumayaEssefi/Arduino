@@ -29,6 +29,7 @@ Below is a list of the Arduino projects included in this repository:
 | **Soil_Moisture_Control**     | Monitors soil moisture and activates a pump based on the measured moisture level. | Beginner |
 | **LCD_Display**               | Displays "hello" on the first line and "2020" on the second line of an I2C LCD screen using the LiquidCrystal_I2C library. | Beginner      |
 | **Gas_LED_Firebase**          | Monitors gas levels and controls an LED remotely using Firebase.    | Intermediate |
+| **RFID_Lock_Firebase**         | Utilizes an RFID module to detect a card and control a lock via Firebase based on the card's UID. | Intermediate |
 
 
 ## Requirements
